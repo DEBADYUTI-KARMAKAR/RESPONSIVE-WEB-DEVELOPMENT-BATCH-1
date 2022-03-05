@@ -1,0 +1,67 @@
+body{
+    background-color: #f1faee ;
+}
+button{
+    font-size: 30px;
+    color: #ccd5ae;
+    background-color:#f28482 ;
+}
+h1,h2{
+    color: #ee9b00;
+}
+#signup{
+    background-color: #007200;
+}
+
+span{
+    color: #d00000;
+}
+.tag{
+    background-color: #370617;
+    color: #ffba08;
+    font-size: 35px;
+}
+a{
+    color: #db00b6;
+    text-decoration: none;
+    font-weight: 900;
+}
+footer a{
+
+    color: #ee9b00;
+}
+
+h2 + button{
+    background-color: rgb(4, 0, 255);
+}
+h3 + button {
+    background-color: #12eb5a;
+}
+
+input + button{
+    background-color: #fb5607;
+}
+
+span > a{
+    background-color: #b2f099;
+}
+
+input[type="password"]{
+    color: #ec0868;
+}
+
+a[href*="google"]{
+    color: #1d3557;
+}
+
+button:hover{
+    background-color: #370617;
+    color: #ccd5ae;
+}
+a:hover{
+    text-decoration: overline;
+}
+
+button:active{
+    background-color: #c30202;
+}

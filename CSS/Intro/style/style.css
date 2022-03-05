@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+    /*over line underline line-through*/
+    text-decoration: rgb(255, 0, 0) underline wavy;
+    letter-spacing: 2ch;
+    font-size: 30px;
+    font-family:Arial Narrow;
+}
+p{
+    font-weight: 500;
+    line-height: 2;
+
+}
+a{
+    text-decoration: none;
+}

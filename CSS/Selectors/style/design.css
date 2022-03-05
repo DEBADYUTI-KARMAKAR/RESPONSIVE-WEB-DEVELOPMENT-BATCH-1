@@ -1,0 +1,52 @@
+/*
+*{
+    color: rgb(255, 115, 0);
+}*/
+body{
+
+    background-color: antiquewhite;
+
+}
+
+h1{
+    color: brown;
+}
+
+h2,h1{
+    color: rgb(255, 72, 0);
+}
+
+#login{
+    background-color: darkgray;
+    color: rgb(253, 228, 0);
+}
+#signup{
+    background-color: darkviolet;
+    color: pink;
+}
+
+.tag{
+    color: #ff006e;
+}
+
+li a{
+
+    color: #ffba08;
+
+}
+
+span + h3 {
+    background-color: #ff006e;
+}
+
+span > a {
+    color: rgb(148, 13, 238);
+}
+
+input[type="text"]{
+    color: coral;
+}
+
+
+
+
