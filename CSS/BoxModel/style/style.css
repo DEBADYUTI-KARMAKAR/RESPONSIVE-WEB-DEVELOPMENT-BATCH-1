@@ -6,6 +6,11 @@ div{
 h1{
     background-color: pink;
     width: 100px;
+    padding-left: 100px ;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    margin: 8px;
 }
 /*
 dotted - Defines a dotted border
@@ -25,6 +30,7 @@ hidden - Defines a hidden border
     border-color: rgb(186, 252, 6) ;
     border-style: groove ;
     box-sizing: border-box;
+    margin: 8px;
 }
 #two{
     background-color: rgb(111, 237, 100);    
@@ -32,7 +38,9 @@ hidden - Defines a hidden border
     border-color: rgb(133, 14, 14) ;
     border-style: dotted ;
     box-sizing: border-box;
+    margin:8px;
 
+    margin-left: 500px;
 }
 
 #three{
@@ -43,6 +51,7 @@ hidden - Defines a hidden border
     border-style: dashed ;
     border-radius: 10px;
     box-sizing: border-box;
+    margin: 8px;
 
 }
 #four{
@@ -52,4 +61,17 @@ hidden - Defines a hidden border
 
     border-top-left-radius: 10px;
     box-sizing: border-box;
+    margin: 8px;
+    margin-left: 500px;
+}
+
+button{
+    border-top: 50px;
+    font-size: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    border-radius: 100px;
+    margin: 8px;
 }
