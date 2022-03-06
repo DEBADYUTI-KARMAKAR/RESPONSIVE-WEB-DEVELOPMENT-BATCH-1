@@ -57,6 +57,7 @@ a[href*="google"]{
 button:hover{
     background-color: #370617;
     color: #ccd5ae;
+    font-size: 50px;
 }
 a:hover{
     text-decoration: overline;
@@ -64,4 +65,20 @@ a:hover{
 
 button:active{
     background-color: #c30202;
+}
+
+.post:nth-of-type(2){
+    background-color: #dfe8dc;
+}
+
+h2::first-letter{
+    font-size: 50px;
+}
+
+p::first-line{
+    color: #db00b6;
+}
+
+p::selection{
+    background-color: #ec3608;
 }
