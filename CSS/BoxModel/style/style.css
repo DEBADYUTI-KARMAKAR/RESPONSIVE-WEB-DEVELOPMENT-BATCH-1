@@ -56,7 +56,7 @@ hidden - Defines a hidden border
 }
 #four{
     
-    background-color: rgb(68, 12, 221);
+    background-color: #440cdd;
     border:10px solid black ;
 
     border-top-left-radius: 10px;
