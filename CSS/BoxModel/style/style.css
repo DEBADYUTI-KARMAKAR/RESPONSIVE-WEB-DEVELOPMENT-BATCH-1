@@ -40,7 +40,7 @@ hidden - Defines a hidden border
     box-sizing: border-box;
     margin:8px;
 
-    margin-left: 500px;
+    /*margin-left: 500px;*/
 }
 
 #three{
@@ -74,4 +74,8 @@ button{
     padding-right: 30px;
     border-radius: 100px;
     margin: 8px;
+}
+.e{
+   display: inline-block;
+ 
 }
