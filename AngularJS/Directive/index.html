@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myapp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="content/css/styles.css">
+    <script src="app\lib\angular.min.js"></script>
+    <script src="app\app.js"></script>
+</head>
+<body>
+    <header ng-include="'header.html'"></header>
+    <br>
+    <div class="content">
+
+        <div ng-controller="myappcontroller">
+            <button ng-click="order='name'">Orderd By Name</button>
+            <button ng-click="order='rating'">Orderd By Ratings</button>
+            <input type="text" ng-model="srch">
+            <ul>
+                <li ng-repeat="movie in movies | orderBy:order| filter:srch" ng-show="movie.available">
+                   <h3> {{movie.name | uppercase}} -> {{movie.ticket_price}}</h3>
+
+                   <span>{{movie.rating}}</span>
+                </li>
+            </ul>
+            <form ng-submit="addMovie()">
+                <input type="text" placeholder="name" ng-model="movie.name">
+                
+                <input type="number" placeholder="rating" ng-model="movie.rating">
+                
+                <input type="number" placeholder="price" ng-model="movie.price">
+                <input type="submit">
+            </form>
+            
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>
