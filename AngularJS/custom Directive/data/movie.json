@@ -1,0 +1,30 @@
+[
+    {
+      "name": "KGF2",
+      "rating": 8.5,
+      "ticket_price": 180,
+      "available": true,
+      "img": "content/img/pic.jpg"
+    },
+    {
+      "name": "DDLJ",
+      "rating": 8,
+      "ticket_price": 150,
+      "available": true,
+      "img": "content/img/pic.jpg"
+    },
+    {
+      "name": "Captain",
+      "rating": 7,
+      "ticket_price": 200,
+      "available": true,
+      "img": "content/img/pic.jpg"
+    },
+    {
+      "name": "Rajdeep the king",
+      "rating": 10,
+      "ticket_price": 500,
+      "available": false,
+      "img": "content/img/pic.jpg"
+    }
+  ]
