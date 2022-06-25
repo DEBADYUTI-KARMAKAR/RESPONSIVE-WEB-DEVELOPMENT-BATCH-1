@@ -37,6 +37,11 @@ myapp.directive('randomMovie',[function(){
 
 myapp.controller('myappcontroller',['$scope','$http',function($scope,$http){
 
+    $scope.removedata = function(movie){
+        let removedata = $scope.movies.indexOf(movie);
+        $scope.movies.splice(removedata,1);
+    }
+
     $scope.addMovie = function(){
         $scope.movies.push({
             name:$scope.movie.name,
