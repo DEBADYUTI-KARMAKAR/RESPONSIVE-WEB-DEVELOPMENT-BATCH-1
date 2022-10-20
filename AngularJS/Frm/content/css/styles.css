@@ -180,3 +180,8 @@ input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched{
 input.ng-dirty, textarea.ng-dirty{
   border: 2px solid rgb(68, 0, 255);
 }
+
+input[disabled="disabled"]{
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
